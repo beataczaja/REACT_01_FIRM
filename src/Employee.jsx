@@ -1,4 +1,6 @@
 import React from "react";
+import pracownik1 from "./pracownik1.jpg";
+import pracownik2 from "./pracownik2.jpg";
 
 function Employee() {
   const employeeParam = [
@@ -16,7 +18,8 @@ function Employee() {
       job_position: "[dział Obsługi Klienta]",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices.",
-      image_url: "/src/pracownik2.jpg",
+      //image_url: "/src/pracownik2.jpg",
+      image_url: pracownik2,
     },
   ];
 
